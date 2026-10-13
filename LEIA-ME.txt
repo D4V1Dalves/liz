@@ -1,0 +1,34 @@
+PARA A LIZ — COMO PUBLICAR
+
+1. Envie index.html para a raiz de um repositório no GitHub.
+2. Em Settings > Pages, publique pela branch escolhida e pasta / (root).
+3. Abra o endereço do GitHub Pages.
+
+PAINEL DE MÍDIAS
+Segure Shift + P + D ao mesmo tempo. Esc fecha o painel.
+Adicione fotos, vídeos, músicas e uma mensagem de voz. Edite as legendas e a carta.
+O painel salva os dados com IndexedDB neste navegador e neste endereço.
+O atalho não é senha: qualquer pessoa com acesso ao site pode descobrir o painel.
+
+PARA A LIZ VER AS ALTERAÇÕES
+Clique em EXPORTAR INDEX.HTML e substitua o index.html no repositório.
+GitHub Pages é hospedagem estática e não recebe uploads do painel diretamente.
+O HTML exportado contém as mídias: não precisa de pasta de imagens.
+Guarde também BACKUP DAS MÍDIAS. Pode importá-lo em outro navegador.
+Prefira fotos comprimidas e vídeos curtos: tudo incorporado aumenta o HTML.
+Evite arquivos individuais acima de 100 MB, que o GitHub não aceita normalmente.
+Se um navegador já tiver uma versão local salva, ela tem prioridade sobre a versão publicada;
+importe o backup atualizado ou limpe os dados do site para ver a cópia publicada.
+
+CONTADOR
+Conta até o próximo 15 de março, à meia-noite no fuso de São Paulo.
+No dia 15 de março, mostra uma mensagem de aniversário. Depois, conta até o ano seguinte.
+
+COMPONENTES
+React 18, GSAP e ScrollTrigger estão incorporados no HTML, que dispensa instalação e build.
+Mais de 20 instâncias do componente oficial FadeContent, do React Bits, distribuídas pela página.
+Fonte: https://github.com/DavidHDev/react-bits/blob/main/src/content/Animations/FadeContent/FadeContent.jsx
+Site: https://reactbits.dev
+Respeita a preferência do sistema por movimento reduzido.
+As músicas não estão incluídas: adicione arquivos que você possa utilizar no painel.
+Sem áudio enviado, os títulos oferecem uma busca no YouTube.
